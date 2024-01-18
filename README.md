@@ -27,7 +27,7 @@ Your users should be able to:
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
-### Expected behaviour
+### Expected behaviours
 
 - Update the details on the card as the user fills in the fields
 - Validate the form fields when the form is submitted
