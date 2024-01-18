@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+    }
+
+.main-body{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    height: 900px;
+    background-color: white;
+}
+
+.left-image{
+  position: relative;
+}
+
+.name-input-image{
+  position: absolute;
+  top: 80px;
+  left: 140px;
+}
+
+.card-back{
+  position: absolute;
+  top: 380px;
+  left: 250px;
+}
+.card{
+  display: inline-block;
+  position: absolute;
+  top: 230px;
+  left: 200px;
+  width: 300px;
+  font-size: 33px;
+  font-style: bold;
+  color: rgb(214, 203, 203);
+
+}
+.name{
+  position: absolute;
+  top: 280px;
+  left: 200px;
+  color: rgb(214, 203, 203);
+ 
+}
+
+   
+.exp{
+  position: absolute;
+  top: 280px;
+  left: 500px;
+  color: rgb(214, 203, 203);
+
+}
+
+.cvv{
+
+  position: absolute;
+  top: 495px;
+  left: 600px;
+  color: rgb(227, 217, 217);
+
+}
+
+.exp-Y{
+  position: absolute;
+  top: 280px;
+  left: 527px;
+  color: rgb(227, 217, 217);
+
+}
+.slash{
+  position: absolute;
+  top: 279.9px;
+  left: 520px;
+  color: rgb(227, 217, 217);
+  font-weight: 100;
+  
+}
+
+.card-input-form{
+    width: 230px;
+    height: 340px;
+    margin-top: 100px;
+    margin-left: 380px;
+    border-radius: 5px;
+    background: rgb(107,13,172);
+    background: linear-gradient(83deg, rgba(107,13,172,1) 0%, rgba(107,13,172,0.5104166666666667) 81%);;
+
+}
+
+.card-input-div{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.card-holder-name{
+   color: white;
+}
+
+.name-input{
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 200px;
+    height: 30 px;
+    padding: 4px 12px 4px 12px;
+    
+
+}
+.num-input{
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-top: 15px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 200px;
+  height: 30 px;
+  padding: 4px 12px 4px 12px;
+  
+}
+
+::placeholder {
+   padding-right: 10px;
+   margin-left: 10px;
+  }
+
+
+
+.expiry-date-div{
+    padding-top: 30px;
+    padding-left: 10px;
+
+}
+
+
+
+  .expiry-date{
+    color:white
+    
+  }
+
+  .exp-month{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50px;
+    border: 1px solid gray;
+    padding: 4px 8px 4px 8px;
+    border-radius: 5px;
+  }
+
+  .exp-year{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50px;
+    border: 1px solid gray;
+    padding: 4px 8px 4px 8px;
+    border-radius: 5px;
+
+  }
+  .exp-cvv{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50px;
+    border: 1px solid gray;
+    padding: 4px 8px 4px 8px;
+    border-radius: 5px;
+
+  }
+
+  .confirm-button-div{
+
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+
+  button{
+    color: lightgrey;
+    width: 200px;
+    padding: 8px 12px 8px 12px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background-color: rgb(34, 32, 32);
+  }
+ 
+  button:active{
+    opacity:  0.5
+  }
+  
