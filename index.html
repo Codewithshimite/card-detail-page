@@ -1,51 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Interactive card details form</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interactive-card-details</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./interactive-file.css">
 </head>
 <body>
+<section class="main-body">
 
-  0000 0000 0000 0000
-  Jane Appleseed
-  00/00
+    <div class="left-div">
 
-  000
+    <img class="left-image"  src="/images/bg-main-desktop.png" alt=" gradient card post">
 
-  Cardholder Name
-  e.g. Jane Appleseed
+    <img class="name-input-image"  src="/images/bg-card-front.png" alt="name input image">
+    <img class="card-back"    src="/images/bg-card-back.png" alt="card-back ">
+    <span class="card" >0000 0000 0000 0000</span>
+    <span class="name">Chizara Obi</span>
+    <span class="exp">00</span>
+    <span class="exp-Y">00</span>
+    <span class="slash">/</span>
+    
+    <span class="cvv">123</span>
 
-  Card Number
-  e.g. 1234 5678 9123 0000
+    </div>
 
-  Exp. Date (MM/YY)
-  MM
-  YY
+<!-- This space is just there for clearance -->
+<!-- side comment -->
 
-  CVC
-  e.g. 123
 
-  Confirm
+    <div class="right-div">
 
-  <!-- Completed state start -->
+       <section class="card-input-form">
 
-  Thank you!
-  We've added your card details
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        <div class="card-input-div">
+            <span class="card-holder-name"> CARD HOLDER NAME</span>
+        </div>
+        <input class="name-input" type="text" placeholder="Chizara Obi">
+
+
+        <div class="card-input-div">
+            <span class="card-holder-name"> CARD NUMBER </span>
+        </div>
+
+        <input class="num-input" id="vnumber"   type="text" placeholder="1234-5678-5432">
+        
+
+
+
+        <div class="expiry-date-div">
+            <span class="expiry-date"> EXP: MM/YY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CVV</span><br>
+            <input class="exp-month" id="vMonth" type="text" placeholder="MM">
+            <input class="exp-year"  id="vyear"  type="text" placeholder="YY">
+            <input class="exp-cvv" id="vcvv"  type="text" placeholder="123">
+
+
+
+            <div class="confirm-button-div" >
+
+                <button class="confirm-button" onclick="
+                    displayMessage();">
+                    Confirm
+                </button>
+
+            </div>
+
+
+
+
+
+
+        </div>
+        </section>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+</section> 
 </body>
+<script src="./interactive-card.js" ></script>
 </html>
